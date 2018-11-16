@@ -1,0 +1,21 @@
+{
+  "name": "BS 4",
+  "description": "A shitty implementation",
+  "icons": {
+    "128": "img/icon128.png",
+    "48": "img/icon48.png",
+    "16": "img/icon16.png"
+  },
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {},
+  "manifest_version": 2
+}
